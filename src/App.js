@@ -2,7 +2,6 @@ import "./App.css";
 import Tag from "./components/Tag";
 import Bar from "./components/Bar";
 import Select from "./components/Select";
-import Input from "./components/Input";
 import { useState } from "react";
 
 
