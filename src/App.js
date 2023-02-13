@@ -22,7 +22,6 @@ function App() {
   ];
 
 
-
   return (
     <div
       className="flex justify-center items-center h-screen text-white font-poppins"
@@ -65,11 +64,11 @@ function App() {
             <input type="number" placeholder="Enter the food price" value={food} onChange={(e) => setFood(Number(e.target.value))} className="input w-full max-w-xs text-black focus:outline-none border-gray-300" />
           </div>
           <div className="flex flex-row gap-6 items-center">
-            <label className="text-black">Food</label>
+            <label className="text-black">Shopping</label>
             <input type="number" placeholder="Enter the shopping price" value={shopping} onChange={(e) => setShopping(Number(e.target.value))} className="input w-full max-w-xs text-black focus:outline-none border-gray-300" />
           </div>
           <div className="flex flex-row gap-6 items-center">
-            <label className="text-black">Food</label>
+            <label className="text-black">Movies</label>
             <input type="number" placeholder="Enter the movies price" value={movies} onChange={(e) => setMovies(Number(e.target.value))} className="input w-full max-w-xs text-black focus:outline-none border-gray-300" />
           </div>
         </div>
